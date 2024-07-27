@@ -1,0 +1,246 @@
+.topImage {
+  position: absolute;
+  top: -1rem;
+  left: -2rem;
+}
+.rightImage {
+  position: absolute;
+  top: 5%;
+  right: -2rem;
+  z-index: -1;
+}
+.fetch {
+  color: white;
+}
+.leftImage {
+  position: absolute;
+  top: 15%;
+  left: -2rem;
+  z-index: -1;
+}
+
+.dashboard {
+  display: flex;
+  height: 600px;
+}
+.dashboard-head {
+  background-color: #7ea1ff;
+  padding: 1.4rem;
+  display: flex;
+  height: 90px;
+  align-items: center;
+  box-shadow: inset;
+}
+.sideBar {
+  width: 15%;
+  display: block;
+}
+.dashboard-content {
+  background-color: #ffffff;
+  width: 88%;
+}
+.admincontent {
+  padding: 2rem;
+}
+.user1 {
+  display: none;
+}
+input::placeholder {
+  color: #624a95;
+}
+.bottomImage {
+  position: absolute;
+  bottom: -0rem;
+  right: -0rem;
+  width: 15rem;
+}
+
+.forgot {
+  width: 35%;
+}
+
+.inputBox {
+  width: 35%;
+  margin: 0 auto;
+  outline: 0;
+  box-shadow: 2px 2px 5px gray;
+  border: 0;
+  border-radius: 25px;
+  font-size: 18;
+  padding: 0.5rem;
+  text-indent: 1rem;
+}
+
+.subBox {
+  width: 35%;
+  margin: 0 auto;
+  outline: 0;
+  box-shadow: 2px 2px 5px gray;
+  border: 0;
+  border-radius: 25px;
+  font-size: 18;
+  padding: 0.5rem;
+  text-indent: 1rem;
+  background: linear-gradient(to right, #d47c78, #9f7cdd);
+}
+
+.titleText {
+  background: linear-gradient(to right, #d47c78, #9f7cdd);
+  color: transparent;
+  background-clip: text;
+  padding: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .sideBar {
+    display: none;
+    width: 0;
+  }
+  .content {
+    width: 100%;
+  }
+  .navlink1 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 0rem;
+  }
+  .navlink {
+    display: none;
+  }
+  .topImage {
+    position: absolute;
+    top: 0;
+    left: -1rem;
+  }
+  .usericon {
+    display: none;
+  }
+  .user1 {
+    display: block;
+  }
+  .rightImage {
+    position: absolute;
+    top: 3%;
+    right: -1rem;
+  }
+  .leftImage {
+    position: absolute;
+    top: 15%;
+    left: -1rem;
+    z-index: -1;
+  }
+  .bottomImage {
+    position: absolute;
+    bottom: -0rem;
+    right: -0rem;
+  }
+  .inputBox {
+    width: 90%;
+    margin: 0 auto;
+    outline: 0;
+    box-shadow: 2px 2px 5px gray;
+    border: 0;
+    border-radius: 25px;
+    font-size: 18;
+    padding: 0.5rem;
+    text-indent: 1rem;
+  }
+  .subBox {
+    width: 90%;
+    margin: 0 auto;
+    outline: 0;
+    box-shadow: 2px 2px 5px gray;
+    border: 0;
+    border-radius: 25px;
+    font-size: 18;
+    padding: 0.5rem;
+    text-indent: 1rem;
+    background: linear-gradient(to right, #d47c78, #9f7cdd);
+  }
+  .forgot {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .sideBar {
+    display: none;
+  }
+  .topImage {
+    position: absolute;
+    top: 0;
+    left: -1rem;
+  }
+  .bottomImage {
+    position: absolute;
+    bottom: -0rem;
+    right: -0rem;
+  }
+  .usericon {
+    display: none;
+  }
+  .user1 {
+    display: block;
+  }
+  .navlink1 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 0rem;
+  }
+  .navlink {
+    display: none;
+  }
+  .inputBox {
+    width: 70%;
+    margin: 0 auto;
+    outline: 0;
+    box-shadow: 2px 2px 5px gray;
+    border: 0;
+    border-radius: 25px;
+    font-size: 18;
+    padding: 0.5rem;
+    text-indent: 1rem;
+  }
+  .subBox {
+    width: 70%;
+    margin: 0 auto;
+    outline: 0;
+    box-shadow: 2px 2px 5px gray;
+    border: 0;
+    border-radius: 25px;
+    font-size: 18;
+    padding: 0.5rem;
+    text-indent: 1rem;
+    background: linear-gradient(to right, #d47c78, #9f7cdd);
+  }
+  .forgot {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .sideBar {
+    display: none;
+  }
+  .user1 {
+    color: #624a95;
+    display: block;
+  }
+  .usericon {
+    display: none;
+  }
+  .navlink1 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 0rem;
+  }
+  .navlink {
+    display: none;
+  }
+}
